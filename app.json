@@ -1,0 +1,18 @@
+{
+	"name": "Slack School Mode",
+	"description": "Features for Slack for public school compatiblity",
+	"repository": "https://github.com/coderkevin/slack-school-mode",
+	"logo": "https://heroku-www-files.s3.amazonaws.com/starbot/starbot-icon.png",
+	"success_url": "/",
+	"env": {
+	  "HEROKU_APP_NAME": {
+		"required": true
+	  },
+	  "SLACK_TOKEN": {
+		"description": "Slack bot RTM API token",
+		"required": false
+	  },
+	  "NODE_ENV": "staging"
+	},
+	"image": "heroku/nodejs"
+  }
